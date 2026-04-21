@@ -1,0 +1,29 @@
+{
+  "n_low_fidelity": 117,
+  "n_high_fidelity": 64,
+  "total_iterations": 27,
+  "final_high_count": 64,
+  "Fes": 64,
+  "dimension": 2,
+  "initial_high_count": 10,
+  "krg_correlation": "matern52",
+  "rho": 1.3896713444600137,
+  "model_config": {
+    "low": {
+      "corr": "matern52",
+      "poly_type": "constant",
+      "nugget_val": 0.001,
+      "l_min": 0.25,
+      "l_max": 10.0
+    },
+    "delta": {
+      "corr": "matern52",
+      "poly_type": "linear",
+      "nugget_val": 1e-08,
+      "l_min": 0.25,
+      "l_max": 10.0
+    }
+  },
+  "result_dir": "C:\\Users\\Donglin Wu\\Desktop\\code\\RUN\\Tunnel2d\\CD（尾耙原始）\\Ma0.3-0.5_2D\\FusionResult20260409_111644",
+  "timestamp": "20260409_111644"
+}

@@ -1,0 +1,29 @@
+{
+  "n_low_fidelity": 21,
+  "n_high_fidelity": 11,
+  "total_iterations": 3,
+  "final_high_count": 11,
+  "Fes": 11,
+  "dimension": 1,
+  "initial_high_count": 5,
+  "krg_correlation": "matern52",
+  "rho": 1.0461309967161525,
+  "model_config": {
+    "low": {
+      "corr": "matern52",
+      "poly_type": "constant",
+      "nugget_val": 0.001,
+      "l_min": 0.25,
+      "l_max": 10.0
+    },
+    "delta": {
+      "corr": "matern52",
+      "poly_type": "linear",
+      "nugget_val": 1e-08,
+      "l_min": 0.25,
+      "l_max": 10.0
+    }
+  },
+  "result_dir": "C:\\Users\\Donglin Wu\\Desktop\\code\\RUN\\Tunnel1d\\CL\\Ma0.6\\FusionResult20260408_103553",
+  "timestamp": "20260408_103553"
+}

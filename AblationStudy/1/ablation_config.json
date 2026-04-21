@@ -1,0 +1,39 @@
+{
+  "benchmark_config": {
+    "random_seed": 42,
+    "repeat_count": 5,
+    "dimension": 8,
+    "BHF": 200,
+    "low_sample_count": 500,
+    "validation_count": 1200,
+    "pso_iters": 30,
+    "pso_pop_size": 15,
+    "krg_corr": "matern52",
+    "low_poly_type": "constant",
+    "delta_poly_type": "linear",
+    "low_nugget": 0.0001,
+    "delta_nugget": 0.0001,
+    "l_min": 0.05,
+    "l_max": 10.0,
+    "validation_seed": 9042
+  },
+  "dart_config": {
+    "random_seed": 42,
+    "repeat_count": 5,
+    "dimension": 8,
+    "BHF": 200,
+    "low_sample_count": 500,
+    "validation_count": 1200,
+    "pso_iters": 30,
+    "pso_pop_size": 15,
+    "krg_corr": "matern52",
+    "low_poly_type": "linear",
+    "delta_poly_type": "constant",
+    "low_nugget": 0.0001,
+    "delta_nugget": 0.0001,
+    "l_min": 0.05,
+    "l_max": 10.0,
+    "validation_seed": 9042
+  },
+  "说明": "Baseline 与收敛性验证 DART 使用同源逻辑；B4 使用低信息增益不确定性采样以突出退化效果。"
+}

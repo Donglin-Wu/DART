@@ -1,0 +1,4 @@
+iteration,current_high_count,rho,point_diff,point_uncertainty,requested_point_count,actual_y_diff,actual_y_uncertainty
+1,7,0.8813952332369462,[4.5],[3.5],2,0.021453889,0.029759169
+2,9,0.8593162532768195,[4.0],[0.0],2,0.025577486,0.039220523
+3,11,0.8673066543746197,[2.5],[-1.0],2,0.033996764,0.040277649

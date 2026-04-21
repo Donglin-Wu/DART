@@ -1,0 +1,7 @@
+{
+  "BHF": 200,
+  "LOW_SAMPLE_COUNT": 500,
+  "REPEAT_COUNT": 5,
+  "VALIDATION_COUNT": 1200,
+  "dimension": 8
+}
